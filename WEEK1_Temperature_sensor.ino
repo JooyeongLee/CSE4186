@@ -62,5 +62,4 @@ void loop() {
       ThingSpeak.writeField(myChannelNumber, 1, celsius, myWriteAPIKey);
   
   
-  //delay(5000); // ThingSpeak will accept updates every 5 seconds.
 }
